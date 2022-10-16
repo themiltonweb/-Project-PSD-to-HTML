@@ -1,0 +1,244 @@
+/* Commen css part Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+h1,h2,h3,h4,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.Milton{
+    margin-right: 0 !important;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+/* Commen css part End */
+
+
+/* Header  part Start */
+#Headar_part{
+    background: rgba(0, 0, 0, 0.44);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+/* .Logo_and_Menu{
+
+} */
+.logo{
+    padding-top: 30px;
+    width: 120px;
+    float: left;
+}
+.menu{
+    width: 1100px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    padding-left: 45px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 90px;
+}
+.menu ul li a:hover{
+    color: #28b8d8;
+    transition: .6s;
+}
+/* Header part End */
+
+
+/* Benner part Start */
+#Banner_part{
+    padding-top: 350px;
+    padding-bottom: 250px;
+    background: url(../Images/kubb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+}
+.bennar_text{
+    text-align: center;
+}
+.bennar_text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bennar_text h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 0;
+}
+.bennar_text p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+/* Benner part End */
+
+
+/* Item and text1  part Start */
+#Services_parte{
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+.services_text{
+    text-align: center;
+}
+.services_text h3{
+    color:#444444;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+.services_text p{
+    color:#666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+.services_text h2{
+    color:#444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.services_iteam_parte{
+    margin-top: 30px;
+}
+.services_iteam{
+    width: 385px;
+    border: 1px solid #c0bfbf;
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+}
+.services_iteam img{
+    width: 100%;
+}
+.iteam_text{
+    text-align: center;
+}
+.iteam_text h3{
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.iteam_text p {
+	color: #666666;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	line-height: 22px;
+	padding: 0px  34px;
+}
+/*  Item and text1 part End */
+
+
+
+/* text 2  part Start */
+#Text_part1{
+    padding: 50px 0;
+    background-color: #2c2c2c;
+}
+.up_text{
+    text-align: center;
+   
+}
+.up_text h3{
+    color: #d5d5d5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif; 
+    position: relative; 
+}
+.up_text h3::after{
+    position: absolute;
+    height: 4px;
+    width: 140px;
+    background: yellow;
+    top: 50%;
+    right: 357px;
+    content: "";
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+.up_text h3::before{
+    position: absolute;
+    height: 4px;
+    width: 140px;
+    background: yellow;
+    top: 50%;
+    left: 357px;
+    content: "";
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+/* textc 2  part End */
+
+
+/* Img 2 part Start */
+#web_Img_part{
+    height: 322px;
+    width: 1250;
+    margin: 0 auto;
+  
+}
+.img1{
+    width: 310px;
+    float: left;
+}
+.img2{
+    width: 320px;
+    float: left;
+}
+.img3{
+    width: 320px;
+    float: left;
+}
+.img4{
+    width: 300px;
+    float: left;
+}
+/* Img 2 part End */
